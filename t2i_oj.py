@@ -16,4 +16,4 @@ pipe = pipe.to("mps")
 prompt = "An astronaut riding a green horse"
 
 image = pipe(prompt=prompt).images[0]
-image.save("./img_journey.png")
+image.save("./image_oj.png")

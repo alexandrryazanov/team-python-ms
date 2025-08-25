@@ -2,12 +2,14 @@
 
 ## Startup command
 
+(python3 should be installed on yout computer)
+
 ./startup.sh
 
 ## Run openjournye model
 
-python3 ./i2t_oj.py
+./venv/bin/python3 ./i2t_oj.py
 
 ## Run stable-diffusion-v1-5 model
 
-python3 ./i2t_sd.py
+./venv/bin/python3 ./i2t_sd.py
