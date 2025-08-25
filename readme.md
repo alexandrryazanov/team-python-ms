@@ -6,10 +6,15 @@
 
 ./startup.sh
 
-## Run openjournye model
+## Example
 
-./venv/bin/python3 ./i2t_oj.py
+### Run openjournye model
 
-## Run stable-diffusion-v1-5 model
+./venv/bin/python3 ./src/t2i_generators/t2i_oj.py
 
-./venv/bin/python3 ./i2t_sd.py
+### Run stable-diffusion-v1-5 model
+
+./venv/bin/python3 ./src/t2i_generators/t2i_oj.py
+
+### Run local service that generates images based on openjournye model
+./venv/bin/python3 ./src/service/t2i_oj_service.py
